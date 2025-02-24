@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
-const data_directory = "src/data"
+const data_directory = "Project/data"
 let command = '';
 const fs = require('fs')
 const { exec } = require('child_process');
 const { parse } = require('path');
 try {
   console.log("Running cleanup...");
-  fs.readdir("src/data", function (err, files) {
+  fs.readdir(data_directory, function (err, files) {
     //handling error
     if (err || files.length <= 0) {
       console.error(err)

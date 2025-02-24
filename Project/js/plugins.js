@@ -3,5 +3,5 @@
 var $plugins =
 [
 {"name":"EDevTool","status":true,"description":"v0.0.1 Bare Bones Plugin Template","parameters":{}},
-{"name":"EDisplayImage","status":true,"description":"v0.0.1 Bare Bones Plugin Template","parameters":{}}
+{"name":"EDisplayImage","status":true,"description":"v0.0.1 连续显示图片插件","parameters":{"pictureId":"1","AnchorType":"1","x":"0","y":"0","scaleX":"100","scaleY":"100","opacity":"255","blendMode":"0"}}
 ];

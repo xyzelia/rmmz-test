@@ -1392,6 +1392,81 @@
           },
           "list": [
             {
+              "code": 357,
+              "indent": 0,
+              "parameters": [
+                "EDisplayImage",
+                "setDefaultConfig",
+                "setDefaultConfig",
+                {
+                  "pictureId": "1",
+                  "AnchorType": "1",
+                  "x": "150",
+                  "y": "150",
+                  "scaleX": "100",
+                  "scaleY": "100",
+                  "opacity": "255",
+                  "blendMode": "0"
+                }
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "pictureId = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "AnchorType = 1"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "x = 150"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "y = 150"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "scaleX = 100"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "scaleY = 100"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "opacity = 255"
+              ]
+            },
+            {
+              "code": 657,
+              "indent": 0,
+              "parameters": [
+                "blendMode = 0"
+              ]
+            },
+            {
               "code": 101,
               "indent": 0,
               "parameters": [
@@ -1427,7 +1502,14 @@
               "code": 655,
               "indent": 0,
               "parameters": [
-                "  allpath.push('Actor1_' + i)"
+                "  allpath.push('Actor1_' + i) // 字符串代表路径"
+              ]
+            },
+            {
+              "code": 655,
+              "indent": 0,
+              "parameters": [
+                "  allpath.push(1000) //数字代表时间 ms"
               ]
             },
             {
@@ -1445,10 +1527,17 @@
               ]
             },
             {
+              "code": 108,
+              "indent": 0,
+              "parameters": [
+                "需要设置等待时间与插件中的等待的时间总和一致"
+              ]
+            },
+            {
               "code": 230,
               "indent": 0,
               "parameters": [
-                480
+                960
               ]
             },
             {
